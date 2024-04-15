@@ -1,0 +1,15 @@
+/* Css da xam xuddi shunaqa snipedni yozib olishimiz bumkun bunda xam xuddi shu amal bajariladi */
+
+.sitenav__list {
+ display: flex;
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 20px;
+}
+.sitenav__link {
+  display: block;
+  text-decoration: none;
+}
